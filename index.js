@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send({ hi: 'there' });
+  res.send({ bye: 'buddy' });
 });
 
 // when the app is deployed to env (aws or heroku...) this tells which port number to use
